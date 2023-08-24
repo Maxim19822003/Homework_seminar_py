@@ -55,7 +55,7 @@ print(['yes', 'no'][k == l])
 # Пример:
 # a, b, c = 3, 2, 4 -> yes
 # a, b, c = 3, 2, 1 -> no
-
+"""
 a, b, c = int(input('a = ')), int(input('b = ')), int(input('c = '))
 if c == 1:
     print('no')
@@ -63,3 +63,4 @@ elif a % c == 0 or b % c == 0 and c % a == 0 or c % b == 0:
     print('yes')
 else:
     print('no')
+"""
